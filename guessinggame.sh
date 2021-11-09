@@ -18,7 +18,7 @@ do
     elif [[ $numGuess -eq $numFiles ]]
     then
         let exit_loop=1 # Request to exit the loop
-        echo "User guessed correctly: the current folder contains $numFiles files."
+        echo "Congratulations! You guessed correctly!"
     elif [[ $numGuess -lt $numFiles ]]
     then
         echo "In the folder there are more than $numGuess files. Try again!"
